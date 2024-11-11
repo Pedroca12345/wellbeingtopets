@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well-being to pets</title>
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/first_section.css">
+    <link rel="stylesheet" href="assets/styles/second_section.css">
+    <link rel="stylesheet" href="assets/styles/third_section.css">
+    <link rel="stylesheet" href="assets/styles/fourth_section.css">
+    <link rel="stylesheet" href="assets/styles/fifth_section.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home">
+                <img src="/resources/images/logo.png" alt="Logo"  height="50" width="50">
+            </a>
+            
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#chat">Chat</a>
+                </li>
+                <li>
+                    <a href="#services">Serviços</a>
+                </li>
+                <li>
+                    <a href="#scheduling">Agendamento</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+
+            <button>Cadastrar-se</button>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="home" id="home">
+                <h1>Não sabe o que o seu amiguinho</h1>
+                <h1>pode ter?</h1>
+                <p>faça o nosso pre-diagnóstico online!</p>
+                <button id="go-to-chat-button" onclick="goIntoView('chat')">Pre-diagnóstico online</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="chat-container" id="chat">
+                <div class="chat-box">
+                    <div class="chat-title">
+                        <h1>Pre-diagnóstico online</h1>
+                        <p>(Powered by ChatGPT 3.5)</p>
+                    </div>
+                    <div class="chat-messages" id="chat-messages">
+                        
+                    </div>
+                    <div class="chat-prompt">
+                        <input type="text" name="" id="user-prompt" placeholder="Digite sua mensagem...">
+                        <button id="send-prompt-button" type="submit">
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="services" id="services">
+                <h1>Como nós ajudamos: </h1>
+                <div class="services-content">
+
+                    <div class="all-services">
+                        
+                        <div class="service-description">
+                            <img src="resources/images/samu-animal.png" alt="Samu Animal" width="300" height="300">
+                            <h2>Samu animal</h2>
+                            <p>Socorremos animais com emergência <br> e levamos até o veterinário.</p>
+                        </div>
+                    </div>
+    
+                    <div class="all-services">
+                        
+                        <div class="service-description">
+                            <img src="resources/images/servicos-veterinarios.png" alt="Serviços Veterinários" width="300" height="300">
+                            <h2>Serviços Veterinários</h2>
+                            <p>Fazemos consulta, exames, cirurgias <br> e outros serviços.</p>
+                        </div>
+                    </div>
+    
+                    <div class="all-services">
+                        
+                        <div class="service-description">
+                            <img src="resources/images/banho.png" alt="Banho e Tosa" width="300" height="300">
+                            <h2>Banho</h2>
+                            <p>Após o atendimento, devolvemos <br>seu pet cheirosinho.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <div class="contact" id="contact">
+
+        </div>
+    </footer>
+
+
+    <script src="assets/scripts/chat.js"></script>
+    <script src="assets/scripts/main.js"></script>
+    <script src="https://kit.fontawesome.com/707f1457df.js" crossorigin="anonymous"></script>
+</body>
+</html>

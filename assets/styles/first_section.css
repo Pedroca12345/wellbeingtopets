@@ -1,0 +1,35 @@
+.home {
+    background: no-repeat;
+    background-size: cover;
+    background-image: url('/resources/images/background-first-section.png');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.home p {
+    color: #fff;
+}
+
+.home button {
+    border: none;
+    background-color: #fff;
+    font-weight: 500;
+    color: #443f3f;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.home button:hover {
+    background-color: #e9e9e9;
+    transition: .3s;
+}
